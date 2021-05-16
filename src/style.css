@@ -1,0 +1,117 @@
+::placeholder {
+  color: rgb(243, 242, 242);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.loginDiv {
+  padding: 10px 0;
+  background-image: linear-gradient(#304352, #d7d2cc);
+  width: 350px;
+}
+
+.profileImage {
+  padding-top: 15px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formheading {
+}
+
+.formheading h1 {
+  color: rgb(243, 242, 242);
+  text-align: center;
+}
+.profileImage img {
+  width: 90px;
+  height: 90px;
+}
+
+.formcontainer form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.formcontainer form input[type='text'],
+.formcontainer form input[type='password'] {
+  background-color: transparent;
+  width: 250px;
+  height: 30px;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  color: rgb(243, 242, 242);
+}
+
+.inputsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.inputsection img {
+  object-fit: contain;
+  width: 17px;
+}
+
+.checkboxcontainer {
+  color: rgb(243, 242, 242);
+  display: flex;
+}
+
+.checkboxcontainer input {
+  margin-right: 10px;
+}
+
+.loginbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginbutton button {
+  padding: 8px 0;
+  border: none;
+  width: 100%;
+  background-color: rgb(243, 242, 242);
+  transition: 0.5s ease-out;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(117, 117, 117);
+}
+
+.loginbutton button:hover {
+  transition: 0.5s ease-out;
+  color: #9198e5;
+  cursor: pointer;
+}
+
+.loginformfooter {
+  text-align: center;
+}
+
+.loginformfooter p {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.loginformfooter p a {
+  transition: 0.2s ease-in-out;
+}
+
+.loginformfooter p a:hover {
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}
